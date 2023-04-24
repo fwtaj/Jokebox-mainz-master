@@ -1,0 +1,161 @@
+
+.profile-pic {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  vertical-align: middle;
+  text-align: center;
+  color: transparent;
+  transition: all .3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+.col-xl-4{
+  color: #fff;
+  padding-top: 20px;
+}
+.MJC {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.profile-pic:hover {
+  background-color: rgba(214, 15, 15, 0.5);
+  z-index: 10000;
+  color: #fff;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+
+.profile-pic span {
+  display: inline-block;
+  padding-top: 4.5em;
+  padding-bottom: 4.5em;
+}
+
+form input[type="file"] {
+        display: none;
+        cursor: pointer;
+}
+
+.btn-danger {
+  padding-right: 20px;
+} 
+
+
+
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  background-image: url(image.jpg);
+  
+}
+.container {
+  width: 400px;
+  height: 700px;
+
+}
+
+.bi {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.imgFrame {
+  height: 200px;
+}
+
+.prof {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.hideIt {
+  opacity: 0;
+}
+
+ .nav-link {
+  color: #fff !important;
+ }
+
+.errBox {
+  border: 3px solid red !important;
+}
+ 
+.modal-content {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  border: solid 2px #fff;
+  box-shadow:
+    inset 60px 0 120px #f0f,  /* left magenta */
+    inset -60px 0 120px #0ff; /* right cyan */
+}
+
+.JK {
+  font-size: 20px;
+  padding-bottom : 1px;
+  padding-left: 20px;
+  color: #fff !important;
+}
+.P1 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.H1 {
+  font-size: 45px;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #fff;
+}
+.PF{
+  padding-top: 12px;
+  color: #fff;
+}
+.box {
+  width: 350px;
+  padding: 40px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+}
+.Col{
+  font-size: 30px;
+}
+.container-1{
+  color: #fff;
+}
+.display-1 {
+  padding-top: 250px;
+  color: #fff;
+}
+.greet{
+  color: #fff;
+  font-size: 45px;
+}
+
+
+#button{
+  border: 2px solid #2ecc71;
+  background: none;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding: 15px 40px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 200;
+}

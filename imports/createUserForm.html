@@ -1,0 +1,26 @@
+<template name="createUserForm">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" id="nu-fname" required>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" id="nu-lname" required>
+            </div>
+            <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="nu-email" required>
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Username (6 characters minimum)" aria-label="Username" id="nu-name" pattern=".{6,}" title="6 characters minimum" required>
+            </div>
+            <div class="input-group mb-3">
+                <input type="password" class="form-control" placeholder="Password (8 characters minimum)" aria-label="Password" id="nu-password" pattern=".{8,}" title="8 characters minimum" required>
+            </div>
+            <div class="input-group mb-3">
+                <input type="confirmPassword" class="form-control" placeholder="Come Again?" aria-label="Confirm Password" id="nu-confirmPassword" required>
+            </div>
+            <button type="button" class="btn btn-info js-createUser">Create</button>
+            <a href="/" class="btn btn-info">Cancel</a>
+        </div>
+    </div>
+</template>
